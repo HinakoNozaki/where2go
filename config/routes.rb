@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'sessions/new'
   get 'eateries/new'
   post 'eateries/create'
     get 'lunch/go'
